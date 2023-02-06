@@ -1,3 +1,7 @@
 body {
   background-image: url("https://cdn.glitch.global/6804417f-6c52-4434-9c34-3a39a98168f8/elgoog_1.jpg?v=1675717448116");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
