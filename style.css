@@ -4,4 +4,10 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
+  
+
+  cursor: url('your-image-url.png'), auto;
+
+  
 }
+
