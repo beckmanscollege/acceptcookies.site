@@ -7,10 +7,6 @@ body {
 
   cursor: url("https://cdn.glitch.global/6804417f-6c52-4434-9c34-3a39a98168f8/cursor_1.png?v=1675717438646"), auto;
 
-  height 100vh
-	width 100vw
-	background transparent radial-gradient(at calc(var(--mouse-x, 0) * 100%) calc(var(--mouse-y, 0) * 100%), white, lightgreen) no-repeat 0 0
-  
   
 }
 
