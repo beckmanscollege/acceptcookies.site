@@ -8,14 +8,16 @@ document.addEventListener('mousemove', evt => {
     root.style.setProperty('--mouse-y', y);
 });
 
-const followers = document.querySelectorAll('.follower');
 
-document.addEventListener('mousemove', (event) => {
-  let x = event.clientX;
-  let y = event.clientY;
 
-  followers.forEach((follower) => {
-    follower.style.top = y + "px";
+const followers = document.querySelectorAll(".follower");
+
+document.addEventListener("mousemove", (evt) => {
+  let x = evt.clientX;
+  let y = evt.clientY;
+  
+  followers.forEach(follower => {
     follower.style.left = x + "px";
+    follower.style.top = y + "px";
   });
 });
