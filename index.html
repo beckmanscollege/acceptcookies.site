@@ -9,6 +9,18 @@
 <link rel="stylesheet" type="text/css" href="style.css">
 <script type="text/javascript" src="script.js"></script>
     
+<script>
+      const root = document.body;
+      console.log(root)
+
+      document.addEventListener("mousemove", (evt) => {
+        let x = evt.clientX / innerWidth;
+        let y = evt.clientY / innerHeight;
+        root.style.setProperty("--mouse-x", x);
+        root.style.setProperty("--mouse-y", y);
+      });
+</script>
+    
     
    <style>
       body {
@@ -19,7 +31,7 @@
            body {
           height: 100vh;
           width: 100vw;
-          background: transparent radial-gradient(at calc(var(--mouse-x, 0) * 100%) calc(var(--mouse-y, 0) * 100%), rgba(174, 214, 123,0.3), rgba(241, 255, 224, 0)) no-repeat 0 0;
+          background: transparent radial-gradient(at calc(var(--mouse-x, 0) * 100%) calc(var(--mouse-y, 0) * 100%), rgba(174, 214, 123,0.5), rgba(241, 255, 224, 0.5)) no-repeat 0 0;
       }
     </style>
     
@@ -32,17 +44,7 @@
   <img src="https://cdn.glitch.global/6804417f-6c52-4434-9c34-3a39a98168f8/kaktest_2.png?v=1675783184934" class="follower">
   <img src="https://cdn.glitch.global/6804417f-6c52-4434-9c34-3a39a98168f8/kaktest_3.png?v=1675783188762" class="follower">
   
-         <script>
-      const root = document.body;
-      console.log(root)
-
-      document.addEventListener("mousemove", (evt) => {
-        let x = evt.clientX / innerWidth;
-        let y = evt.clientY / innerHeight;
-        root.style.setProperty("--mouse-x", x);
-        root.style.setProperty("--mouse-y", y);
-      });
-    </script>
+  
   
   
 </body>

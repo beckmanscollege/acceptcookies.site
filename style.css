@@ -5,7 +5,7 @@ body {
 }
 
   cursor: url("https://cdn.glitch.global/6804417f-6c52-4434-9c34-3a39a98168f8/cursor_genomskinlig_3.png?v=1675782185102"), auto;
-  opacity: 0.5;
+  opacity: ;
 
   
 }
@@ -23,6 +23,7 @@ body {
 
 .follower {
   position: absolute;
+  left: 0;
+  top: 0;
 }
-
 
