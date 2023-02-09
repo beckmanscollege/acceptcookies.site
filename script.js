@@ -1,3 +1,11 @@
+const button = document.getElementById("button");
+const target = document.getElementById("target");
+
+button.addEventListener("click", () => {
+  button.style.display = "none";
+  target.style.display = "none";
+});
+
 const root = document.documentElement;
 
 const followers = document.querySelectorAll(".follower");
