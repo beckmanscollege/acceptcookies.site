@@ -30,7 +30,17 @@ body {
   height: auto;
 }
 
-.follower {
+.follower1 {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.follower2 {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.follower3 {
   position: absolute;
   left: 0;
   top: 0;
