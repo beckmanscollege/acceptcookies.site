@@ -11,7 +11,7 @@ document.addEventListener("mousemove", (evt) => {
   let y = evt.clientY;
 
   followers.forEach((follower, index) => {
-    let delay = index * 100; // increase delay for each image
+    let delay = index * 150; // increase delay for each image
     setTimeout(() => {
       follower.style.left = x + "px";
       follower.style.top = y + "px";
