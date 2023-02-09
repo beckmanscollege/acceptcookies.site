@@ -1,5 +1,3 @@
-
-
 const followers = document.querySelectorAll(".follower");
 
 followers.forEach(follower => {
