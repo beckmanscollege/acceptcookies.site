@@ -12,9 +12,14 @@ document.addEventListener("mousemove", (evt) => {
   root.style.setProperty("--mouse-x", x2);
   root.style.setProperty("--mouse-y", y2);
   
-  followers.forEach((follower) => {
-    follower.style.left = x + "px";
-    follower.style.top = y + "px";
+
+  
+  followers.forEach((follower, index) => {
+    let delay = index * 100; // increase delay for each image
+    setTimeout(() => {
+      follower.style.left = x + "px";
+      follower.style.top = y + "px";
+    }, delay);
   });
 });
 
