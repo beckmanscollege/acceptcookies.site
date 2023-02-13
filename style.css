@@ -16,7 +16,7 @@ body {
       rgba(241, 255, 224, 0.5)
     )
     no-repeat 0 0;
-  overflow:hidden;
+  overflow: hidden;
 }
 
 #image {
@@ -35,4 +35,28 @@ body {
   left: 0;
   top: 0;
   margin: 25px;
+}
+
+#myButton {
+  display: block;
+  width: 200px;
+  height: 80px;
+  background-color: royalblue;
+  color: white;
+  border: 1px solid black;
+
+  margin: auto;
+
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+#myButton:hover {
+  background-color:green;
+}
+
+#myButton:active {
+  background-color: red;
 }
