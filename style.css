@@ -48,8 +48,8 @@ body#index {
 #myButton {
   display: block;
   font-size: 50px;
-  width: 800px;
-  height: 320px;
+  width: 400px;
+  height: 160px;
   background-color: royalblue;
   color: white;
   border: none;
