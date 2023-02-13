@@ -21,7 +21,7 @@ body#google {
 
 body#index {
   background-image: url(https://cdn.glitch.global/fe038f99-151e-468c-a346-47055de90b4f/fo%CC%88rsta%20sidan%20utan%20knapp.jpg?v=1675951090908);
-  background-size: cover;
+  background-size: 100% 100%;
   background-position: center center;
   background-repeat: no-repeat;
   background-color: gray;
@@ -50,7 +50,7 @@ body#index {
   font-size: 50px;
   width: 400px;
   height: 160px;
-  background-color: royalblue;
+  background-color: rgba(66, 133, 244);
   color: white;
   border: none;
   border-radius: 20px;
