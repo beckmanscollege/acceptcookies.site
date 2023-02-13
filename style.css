@@ -4,7 +4,7 @@ html {
   margin: 0;
 }
 
-body {
+body#google {
   cursor: url("https://cdn.glitch.global/6804417f-6c52-4434-9c34-3a39a98168f8/cursor_genomskinlig_3.png?v=1675782185102"),
     auto;
   height: 100vh;
@@ -17,6 +17,14 @@ body {
     )
     no-repeat 0 0;
   overflow: hidden;
+}
+
+body#index {
+  background-image: url(https://cdn.glitch.global/fe038f99-151e-468c-a346-47055de90b4f/fo%CC%88rsta%20sidan%20utan%20knapp.jpg?v=1675951090908);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-color: gray;
 }
 
 #image {
@@ -39,11 +47,12 @@ body {
 
 #myButton {
   display: block;
-  width: 200px;
-  height: 80px;
+  font-size: 50px;
+  width: 400px;
+  height: 160px;
   background-color: royalblue;
   color: white;
-  border: 1px solid black;
+  border: none;
 
   margin: auto;
 
@@ -54,7 +63,7 @@ body {
 }
 
 #myButton:hover {
-  background-color:green;
+  background-color: green;
 }
 
 #myButton:active {
