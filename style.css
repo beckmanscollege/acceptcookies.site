@@ -48,11 +48,12 @@ body#index {
 #myButton {
   display: block;
   font-size: 50px;
-  width: 400px;
-  height: 160px;
+  width: 800px;
+  height: 320px;
   background-color: royalblue;
   color: white;
   border: none;
+  border-radius: 25px;
 
   margin: auto;
 
@@ -63,7 +64,7 @@ body#index {
 }
 
 #myButton:hover {
-  background-color: green;
+  background-color: rgba(15, 157, 88);
 }
 
 #myButton:active {
