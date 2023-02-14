@@ -71,7 +71,7 @@ body#index {
   background-color: red;
 }
 
-#googleruta {
-  position: absolute;
-  height: 
+.googleruta {
+  position: relative;
+  
 }
