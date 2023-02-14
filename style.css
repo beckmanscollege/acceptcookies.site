@@ -20,7 +20,7 @@ body#google {
 }
 
 body#index {
-  background-image: url(https://cdn.glitch.global/fe038f99-151e-468c-a346-47055de90b4f/fo%CC%88rsta%20sidan%20utan%20knapp.jpg?v=1675951090908);
+  background-image: url(https://cdn.glitch.global/1a3da3bc-a91b-497f-b5e3-b3669661964f/gra%CC%8A%20google.jpg?v=1676379590528);
   background-size: 100% 100%;
   background-position: center center;
   background-repeat: no-repeat;
@@ -69,4 +69,9 @@ body#index {
 
 #myButton:active {
   background-color: red;
+}
+
+#googleruta {
+  position: absolute;
+  height: 
 }
