@@ -20,7 +20,7 @@ body#google {
 }
 
 body#index {
-  background-image: url(https://cdn.glitch.global/1a3da3bc-a91b-497f-b5e3-b3669661964f/gra%CC%8A%20google.jpg?v=1676379590528);
+  background-image: url(https://cdn.glitch.global/e92d15c5-300d-4e12-93f2-af532818c729/positiona%CC%88ndring.jpg?v=1676456217756);
   background-size: 100% 100%;
   background-position: center center;
   background-repeat: no-repeat;
@@ -58,7 +58,7 @@ body#index {
   margin: auto;
 
   position: relative;
-  top: 50%;
+  top: 54%;
   transform: translateY(-50%);
   cursor: pointer;
 }
@@ -71,9 +71,4 @@ body#index {
   background-color: red;
 }
 
-.googleruta {
-  display: block;
-  height: 600px;
-  position: center;
-  
-}
+
