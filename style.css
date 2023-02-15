@@ -72,6 +72,8 @@ body#index {
 }
 
 .googleruta {
-  position: relative;
+  display: block;
+  height: 600px;
+  position: center;
   
 }
