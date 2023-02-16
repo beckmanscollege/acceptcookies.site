@@ -19,6 +19,22 @@ body#google {
   overflow: hidden;
 }
 
+/* 
+                                                 ...:~!~^:.       
+                                              ..^^^^~^:^!77!^^.    
+                                             .::::::^???GBG?^^!PY:  
+                                             ^!::::::^7Y5J?!^^^7PG^ 
+                                            .:77!!J7^!!!^^^^~~!~7GP.
+                                           ::^755GP~:~?Y!:::~~7~~YG?
+                                           .:~~?JY~^!!^!Y?^^7?^:^J#7
+                                            .:^~~^^~!:::^~^JJ7!^!YP.
+                                           .~^!!?YJ!???~!7??PY!JY5.
+                                             .^!!7PG?Y577YJ!!Y5YY?: 
+                                              :^!77!7J7!777J?J?^   
+                                                .:^7J7?!7!!~:.     
+
+*/
+
 body#index {
   background-image: url(https://cdn.glitch.global/e92d15c5-300d-4e12-93f2-af532818c729/positiona%CC%88ndring.jpg?v=1676456217756);
   background-size: 100% 100%;
@@ -26,6 +42,21 @@ body#index {
   background-repeat: no-repeat;
   background-color: gray;
 }
+
+  /* 
+        ...:~!~^:.       
+    ..^^^^~^:^!77!^^.    
+  .::::::^???GBG?^^!PY:  
+  ^!::::::^7Y5J?!^^^7PG^ 
+ .:77!!J7^!!!^^^^~~!~7GP.
+::^755GP~:~?Y!:::~~7~~YG?
+.:~~?JY~^!!^!Y?^^7?^:^J#7
+ .:^~~^^~!:::^~^JJ7!^!YP.
+ .~^!!?YJ!???~!7??PY!JY5.
+  .^!!7PG?Y577YJ!!Y5YY?: 
+    :^!77!7J7!777J?J?^   
+      .:^7J7?!7!!~:.     
+  */
 
 #image {
   opacity: 0.5;
@@ -59,6 +90,23 @@ body#index {
   border: none;
   border-radius: 20px;
 
+  
+  /* 
+                              ...:~!~^:.       
+                           ..^^^^~^:^!77!^^.    
+                         .::::::^???GBG?^^!PY:  
+                         ^!::::::^7Y5J?!^^^7PG^ 
+                       .:77!!J7^!!!^^^^~~!~7GP.
+                       ::^755GP~:~?Y!:::~~7~~YG?
+                      .:~~?JY~^!!^!Y?^^7?^:^J#7
+                       .:^~~^^~!:::^~^JJ7!^!YP.
+                       .~^!!?YJ!???~!7??PY!JY5.
+                        .^!!7PG?Y577YJ!!Y5YY?: 
+                          :^!77!7J7!777J?J?^   
+                            .:^7J7?!7!!~:.     
+
+*/
+  
   margin: auto;
 
   position: relative;
