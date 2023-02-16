@@ -19,10 +19,60 @@
 -->
     
     <script type="text/javascript" src="script.js" defer></script>
-    <style></style>
+    <style>
+    
+      
+    @font-face {
+    font-family: "pixel";
+    src: url("https://www.worldwidewebring.club/assets/188Sans-Pixel100.woff2") format("woff2");
+    }
+
+
+    #webring {
+    background-color: #ccc;
+    display: flex;
+    text-align: center;
+    font-size: 2vw;
+    line-height: 1em;
+    font-family: "pixel", arial;
+    padding: 0.5vw;
+
+    }
+
+    #webring-left, #webring-right {
+    width: 20vw;
+    align-self: center;
+    }
+
+    #webring-middle {
+    flex-grow: 1;
+    align-self: center;
+    }
+      
+  
+    
+    
+    </style>
   </head>
 
   <body id="google">
+   
+        <div id="webring">
+      <div id="webring-left">
+        <a href="https://thethreeeyes.com">Previous</a>
+      </div>
+          <div id="webring-middle">
+      This Single Serving Site is based on the <a href="https://en.wikipedia.org/wiki/Poetry">Poetry Wikipedia entry</a> 
+      and is part of the <a href="https://2023.worldwidewebring.club">Social Media</a> Webring.
+      </div> 
+      
+      <div id="webring-right">
+        <a href="https://br3akthe1nter.net">Next</a>
+      </div>
+    
+    </div>
+ 
+    
     <!-- bakgrundsbild/spegelvänd google -->
 
     <img
@@ -152,6 +202,6 @@
       src="https://cdn.glitch.global/e92d15c5-300d-4e12-93f2-af532818c729/Ballerina.png?v=1676466601518"
       class="follower"
     />
-    
+      
   </body>
 </html>
