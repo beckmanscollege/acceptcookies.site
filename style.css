@@ -5,7 +5,7 @@ html {
 }
 
 body#google {
-  cursor: url("https://cdn.glitch.global/6804417f-6c52-4434-9c34-3a39a98168f8/cursor_genomskinlig_3.png?v=1675782185102"),
+  cursor: url("https://cdn.glitch.global/e92d15c5-300d-4e12-93f2-af532818c729/cursor_genomskinlig_4.png?v=1676902871957"),
     auto;
   height: 100vh;
   width: 100vw;
@@ -123,5 +123,48 @@ body#index {
 #myButton:active {
   background-color: red;
 }
+
+
+
+ 
+
+  #webring {
+  background-color: none;
+  display: flex;
+  position: fixed;
+  bottom: 1vh;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50vw;
+  height: 60vh;
+  text-align: center;
+  font-size: 10px;
+  line-height: 1em;
+  font-family: "pixel", arial;
+  transform: scaleX(-1);
+  unicode-bidi: bidi-override;
+  direction: rtl;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 20px;
+  z-index: 200;
+  margin-left: -30vw;
+  
+}
+
+      
+#webring-left,
+#webring-right,
+#webring-middle{
+ 
+  height: 50px;
+  
+ 
+  
+  
+}
+
+
+
 
 
